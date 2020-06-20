@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Justdial_suite">
+  <test thread-count="1" name="Justdial_test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="TestCases.justDialTestCases">
+        <methods>
+          <include name="carWashTestCase"/>
+          <include name="freelistTestCase"/>
+          <include name="gymTestCase"/>
+        </methods>   
+      </class> 
+    </classes>
+  </test> 
+</suite> 
