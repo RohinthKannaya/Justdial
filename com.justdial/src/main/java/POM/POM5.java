@@ -48,9 +48,7 @@ public class POM5 {
 		WebElement freelistphonenumbererrormessage=pom2.findElement(prop.getProperty("freelistphonenumbererrormessage_xPath"));
 		String errormessage=pom2.getElementText(freelistphonenumbererrormessage);
 		excel.writeExcel(errormessage);
-//		System.out.println("******************************************************************************\n");
-//		System.out.println("Error message for invalid phone number is : "+errormessage+"\n");
-//		System.out.println("******************************************************************************\n");
+
 	}
 	public void clickJdicon() {
 		WebElement homebutton=pom2.findElement(prop.getProperty("homebutton_xPath"));
